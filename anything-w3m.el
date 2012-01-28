@@ -1,5 +1,4 @@
-
-;;; anything-w3m.el - some w3m commands using anything.el
+;;; anything-w3m.el --- some w3m commands using anything.el
 
 ;; Author: IMAKADO <ken.imakado@gmail.com>
 ;; Keywords: w3m
@@ -22,10 +21,14 @@
 ;; Prefix: anything-w3m-
 
 ;;; Commentary:
-;; Tested on Emacs 22
-;;
+
+;; Some w3m commands using anything.el
 
 ;; M-x anything-w3m-ahead   to select link using anything
+
+;; Tested on Emacs 22
+
+;;; Code:
 
 (require 'w3m-load)
 
